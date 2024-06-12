@@ -6,4 +6,13 @@ export function isUwu(text: string): boolean {
 	return false;
 }
 
-export const UwuPatterns = [/\buwu\b/, /\b>?:3\b/, /\bny(a)+\b/, /\b\*blush/];
+export const UwuPatterns = [
+	/\buwu\b/,
+	/\bowo\b/,
+	/\s>?:3\s/,
+	/\s>?:3$/,
+	/^>?:3$/,
+	/^>?:3\s/,
+	/\bnya+\b/,
+	/\b\*blush/
+];
