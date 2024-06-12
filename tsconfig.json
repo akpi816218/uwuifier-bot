@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"strict": true,
+		"skipLibCheck": true,
+		"target": "ESNext",
+		"lib": ["ESNext", "ES2022", "ES5", "ES6"],
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"alwaysStrict": true,
+		"baseUrl": ".",
+		"paths": {
+			"@src/*": ["src/*"],
+			"@lib/*": ["lib/*"]
+		}
+	},
+	"include": ["src/**/*", "lib/**/*", "scripts/**/*", "*.ts"],
+	"exclude": ["node_modules"]
+}
